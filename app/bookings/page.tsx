@@ -183,7 +183,7 @@ const Form2 = () => {
         w="100%"
         textAlign={'center'}
         fontWeight="normal"
-        mb="2%"
+        mb="3%"
       >
         Package Details
       </Heading>

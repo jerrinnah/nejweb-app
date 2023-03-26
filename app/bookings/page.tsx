@@ -208,7 +208,7 @@ const Form2 = () => {
           shadow="sm"
           size="sm"
           w="full"
-          // rounded="md"
+      
           p={1}
         >
           <option>Regular</option>
@@ -244,31 +244,7 @@ const Form2 = () => {
         />
       </FormControl>
 
-      {/* <FormControl as={GridItem} colSpan={[6, 6, null, 2]}>
-        <FormLabel
-          htmlFor="city"
-          fontSize="sm"
-          fontWeight="md"
-          color="white"
-          _dark={{
-            color: 'gray.50',
-          }}
-          mt="2%"
-        >
-          City
-        </FormLabel>
-        <Input
-          type="text"
-          name="city"
-          id="city"
-          autoComplete="city"
-          focusBorderColor="brand.400"
-          shadow="sm"
-          size="sm"
-          w="full"
-          rounded="md"
-        />
-      </FormControl> */}
+      
 
       <FormControl as={GridItem} colSpan={[6, 3, null, 2]}>
         <FormLabel

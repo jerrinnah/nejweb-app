@@ -3,12 +3,9 @@
 import { Inter } from 'next/font/google';
 
 import { Box, Flex, Text, Image } from '@chakra-ui/react';
-import HeroSection from '../components/HeroSection';
 
-// import "~slick-carousel/slick/slick.css";
-// import "~slick-carousel/slick/slick-theme.css"
 
-export default function Home() {
+export default function gallery() {
   return (
     <>
       <Flex
@@ -21,7 +18,7 @@ export default function Home() {
           lg: 'space-around',
         }}>
       
-        <HeroSection />
+        {/* <HeroSection /> */}
         <Flex
           position={'absolute'}
           bottom={{ base: '40', md: '300' }}
@@ -41,14 +38,14 @@ export default function Home() {
           </Box>
           <Text
             fontFamily={'Fraunces'}
-            fontSize={{ base: '80', md: '120' }}
+            fontSize={{ base: '80', md: '150' }}
             position={'absolute'}
             mt={90}
           >
-            memories
+            arts
           </Text>
         </Flex>
-       
+        
       </Flex>
     </>
   );

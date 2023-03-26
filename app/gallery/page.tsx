@@ -17,8 +17,7 @@ export default function gallery() {
           md: 'flex-end',
           lg: 'space-around',
         }}>
-      
-        {/* <HeroSection /> */}
+   
         <Flex
           position={'absolute'}
           bottom={{ base: '40', md: '300' }}

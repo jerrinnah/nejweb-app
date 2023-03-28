@@ -23,7 +23,6 @@ import {
 } from '@chakra-ui/react';
 
 import { useToast } from '@chakra-ui/react';
-import Calender from '@/components/Calender';
 import Date from '@/components/Date';
 
 const Form1 = () => {

@@ -24,6 +24,7 @@ import {
 
 import { useToast } from '@chakra-ui/react';
 import Calender from '@/components/Calender';
+import Date from '@/components/Date';
 
 const Form1 = () => {
   const [show, setShow] = React.useState(false);
@@ -147,7 +148,8 @@ const Form1 = () => {
           </Flex>
 
           <Flex h={30} flexDirection={'row'}>
-            <Calender />
+            {/* <Calender /> */}
+            <Date/>
           </Flex>
         </Flex>
 
@@ -285,7 +287,7 @@ const Form3 = () => {
     <>
       <Flex flexDirection={'column'} justifyContent={'center'} align={'center'}>
       <Heading w="100%" textAlign={'center'} fontWeight="normal" color={'white'}>
-        We would like to tag you on Instagram
+        We would like to tag you on In
       </Heading>
       <SimpleGrid columns={1} spacing={6}>
         <FormControl as={GridItem} colSpan={[3, 2]}>

@@ -351,7 +351,7 @@ const Form3 = () => {
   );
 };
 
-export default function multistep() {
+export default function Multistep() {
   const toast = useToast();
   const [step, setStep] = useState(1);
   const [progress, setProgress] = useState(33.33);
@@ -415,23 +415,36 @@ export default function multistep() {
                 </Button>
               </Flex>
               {step === 3 ? (
-                <Button
-                  w="7rem"
-                  textColor={'white'}
-                  colorScheme="blue"
-                  variant="solid"
-                  onClick={() => {
-                    toast({
-                      title: 'Booking completed.',
-                      description: "Session booked successfully.",
-                      status: 'success',
-                      duration: 3000,
-                      isClosable: true,
-                    });
-                  }}
-                >
-                  Submit
-                </Button>
+                // <Button
+                //   w="7rem"
+                //   textColor={'white'}
+                //   colorScheme="blue"
+                //   variant="solid"
+                //   onClick={() => {
+                //     toast({
+                //       position:'top',
+                //       title: 'Booking completed.',
+                //       description: "Session booked successfully.",
+                //       status: 'success',
+                //       duration: 3000,
+                //       isClosable: true,
+                //     });
+                //   }}
+                // >
+                //   Submit
+                // </Button>
+                <Button onClick={() =>
+                  toast({
+                    position: 'top',
+                    render: () => (
+                      <Box color='black' p={3} bg="white">
+                          Booking Successful
+                      </Box>
+                    )
+                  })}
+                color={'white'}>
+                  Confirmed
+              </Button>
               ) : null}
             </Flex>
           </ButtonGroup>

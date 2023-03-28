@@ -121,7 +121,7 @@ const Form1 = () => {
                 placeholder={'email'}
               />
               <FormHelperText fontSize={10} textColor={'white'}>
-                We'll never share your email.
+                We will never share your email.
               </FormHelperText>
             </FormControl>
             <FormControl mt="2%" alignSelf={'start'} pl={10}>
@@ -285,7 +285,7 @@ const Form3 = () => {
     <>
       <Flex flexDirection={'column'} justifyContent={'center'} align={'center'}>
       <Heading w="100%" textAlign={'center'} fontWeight="normal" color={'white'}>
-        Let's tag you
+        We would like to tag you on Instagram
       </Heading>
       <SimpleGrid columns={1} spacing={6}>
         <FormControl as={GridItem} colSpan={[3, 2]}>
@@ -438,7 +438,7 @@ export default function Multistep() {
                     position: 'top',
                     render: () => (
                       <Box color='black' p={3} bg="white">
-                          Booking Successful
+                          Session booked Successfully
                       </Box>
                     )
                   })}
